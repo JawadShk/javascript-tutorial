@@ -97,6 +97,17 @@
 
 // 2: Comparison operators in JavaScript
 
+// Why use == in JavaScript?
+// Here are the important uses of == in JavaScript:
+// The == operator is an equality operator. It checks whether its two operands are the same or not by changing expression from one data type to others. You can use == operator in order to compare the identity of two operands even though, they are not of a similar type.
+
+// How === Works Exactly?
+// Strict equality === checks that two values are the same or not.
+// Value are not implicitly converted to some other value before comparison.
+// If the variable values are of different types, then the values are considered as unequal.
+// If the variable are of the same type, are not numeric, and have the same value, they are considered as equal.
+// Lastly, If both variable values are numbers, they are considered equal if both are not NaN (Not a Number) and are the same value.
+
 /*  //exponentiation
     console.log('x ** y =', x ** y);
 
@@ -206,3 +217,65 @@
     const a = null;
     console.log(typeof(a)); // returns "object"
 */
+
+// Javascript condition statements
+    // 1)if statement
+/*  let age=18;
+    if(age>=18){
+        alert("you can vote");
+        
+   }
+*/  
+
+    // 2)if else Statement 
+/*  let age=17;
+    if(age>=18){
+        alert("you can vote");
+    }
+    else{
+        alert("you cannot vote");
+    }
+*/
+    // 3)if else if Statement 
+/*  let age=17;
+    let hasVoterCard='no';
+
+    if(age>=18 && hasVoterCard == 'yes'){
+        alert("you can vote");
+    }
+    else if(age>=18 && hasVoterCard != 'yes'){
+        alert("bring your voter card");
+    }
+    else{
+        alert("you cannot vote");
+    }
+*/
+    // 4)nested if 
+/*  let age=18;
+    let hasVoterCard='no';
+
+    if(age>=18){
+        if(hasVoterCard=='yes'){
+            alert("you can vote")
+        }
+        else{
+            alert("bring your voter card");
+        }
+    }
+    else{
+        alert("you cannot vote");
+    }
+*/
+    // 5) ternary operator
+/*  let isLoggedin = 0;
+    let option = isLoggedin ==1 ? ("Logout") : ("Login");
+        condition                   true        false
+    document.write(option);
+*/
+// Nullish coalescing operator (??)
+
+/*  let user;
+    user="jawad";
+    alert(user??"guest user");
+*/
+        
