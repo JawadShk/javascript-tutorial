@@ -278,4 +278,66 @@
     user="jawad";
     alert(user??"guest user");
 */
+
+// switch case 
+
+/*  input = "N";
+    switch(input){
+        case 1:
+            document.write("Continue");
+            break;
+        case "y":
+            document.write("continue");
+            break;
+        case "yes":
+            document.write("continue");
+            break;
+        case 0:
+            document.write("end");
+            break;
+        case "n":
+            document.write("end");
+            break;
+        case "no":
+            document.write("end");
+            break;
+        default:
+            document.write("wrong input");
+    }
+*/
+// WHILE LOOP
+
+/*    let counter =1;
+    while(counter<=10){
+        document.write("JAWAD");
+        counter++;
+    }
+*/
+
+/*  let counter=1;
+    let sum=0;
+
+    while(counter<=100){
+        if(counter%2 == 0){
+            sum=sum+counter;
+        }
+        counter++;
+    }
+    document.write(sum);
+*/
+
+// Do WHILE LOOP (do while execute atleast one time even if the condition is not statisfied)
+/*    let counter=12;
+    do{
+        document.write("jawad");
+        counter++;
+    }
+    while(counter<=10);
+*/
+
+// FOR LOOP 
+/*    for(let counter=1; counter <=10; counter++){
+        document.write("jawad");
+    }
+*/
         
