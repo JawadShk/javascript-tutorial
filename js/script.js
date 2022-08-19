@@ -340,4 +340,141 @@
         document.write("jawad");
     }
 */
+
+// BREAK, CONTINUE & NESTED LOOP 
+/*   outer: for(let counter=1;counter<=10;counter++){
+        if(counter==5){
+            // break;
+            continue;
+        }
+        if(counter==3){
+            break;
+        }
+        document.write(counter);
+        document.write('<br>');
+
+        for(let counter2=1; counter2<3; counter2++){
+
+            if(counter==3){
+                break outer;
+            }
+
+            document.write('jawad');
+            document.write('<br>');
+        }
+        document.write('<br>');
+    }
+*/
         
+// alert() promt() confirm()-->user interaction functions
+// 1.alert() - shows a message. 
+/*
+    alert("WELCOME");
+*/
+
+// 2. prompt() - shows a message, input Text. It returns the text on ok or, if cancel button is clicked, null.
+/*
+    let age=prompt("Enter Your Age",20);
+    if(age != null){
+        document.write(`your age is ${age}`);
+    }
+    else{
+        document.write('no input entered');
+    }
+*/
+
+// 3.confirm() - shows a message, confirm with "OK" or "Cancel". It returns true for OK and false for Cancel/esc.
+/*
+    let response=confirm("are you sure? you want to delete");
+    if(response){
+        document.write('deleted');
+    }
+    else{
+        document.write('not deleted');
+    }
+*/
+
+// Type Conversion in datatype 
+    // let type=10;
+    // let type="str";
+    // let type=true;
+    // let type=5+null;
+    // let type = "5" + null;
+    // let type = "5" + 2;
+    // let type = "5" - 2;
+    // let type = "5" - "2";
+    // let type = "5" * 2;
+    // let type = "5" * "2";
+    // let type = "5" * "yes";
+    // console.log(type);
+    // console.log(typeof type);
+
+    // let type = 4;
+    // let type = true;
+    // let type = false;
+    // console.log(typeof type);
+    // let NewType = String(type);
+    // console.log(typeof NewType);
+    // console.log(NewType);
+
+    // let type = "abcde";
+    // let type = true;
+    // let type = false;
+    // console.log(typeof type);
+    // let NewType = Number(type);
+    // console.log(typeof NewType);
+    // console.log(NewType);
+
+    // let type = 'abcde';
+    // let type = "";
+    // let type = 6;
+    // let type = 0;
+    // console.log(typeof type);
+    // let NewType = Boolean(type);
+    // console.log(typeof NewType);
+    // console.log(NewType);
+
+// STRING MANUPULATION 
+    // let str1="hello";
+    // let str2="world";
+    // console.log(`Hi ${str1} ${str2}`);
+
+    // let str="jawad shaikh";
+    // let str1="BSCIT";
+    // let str = "jawad \n shaikh";
+    // let str = "jawad \t shaikh";
+    // let str = "jawad \\ shaikh"
+    // let str ="jawad\" shaikh";
+    // let str ='i din\'t studied today';
+    // console.log(str);
+    // console.log(str.length);
+    // console.log(str[4]);
+    // console.log(str +" "+ str1);
+/*  if("Jawad shaikh" == str){
+        console.log("equal");
+    }else{
+        console.log("not equal");
+    }
+*/
+/*
+    let str="jawad";
+    let str1="shaikh";
+    let str3=str.concat(" ",str1);
+    console.log(str3);
+*/
+    // let str = " I am learning javascript from scratch ";
+    // console.log(str.substr(14,10));              (index,length)
+    // console.log(str.substring(0,13));            (index,index)
+    // console.log(str.indexOf('javascript'));      (position of the input string)
+    // console.log(str.indexOf('h',15));            (find position after specific index)
+    // console.log(str.lastIndexOf('h'));           (search from last)
+    // console.log(str.indexOf('z'));               (for searching word is present or not)
+    // console.log(str);
+    // console.log(str.trim());                     (for removing wide space from start and end)
+    // console.log(str.trimStart());                (removing wide space from start)
+    // console.log(str.trimEnd());                  (removing wide space from end)
+    // console.log(str.toUpperCase());              (transforming to upper case)
+    // console.log(str.toLocaleLowerCase());        (transforming to lower case)
+    // console.log(str.replace('javascript','bootstrap')); (replacing string)
+    // console.log(str.includes('html'));               (for searching string and returning value false if absent)
+    // console.log(str.includes('javascript'));         (for searching string and returning value true if presents)
