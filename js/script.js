@@ -478,3 +478,36 @@
     // console.log(str.replace('javascript','bootstrap')); (replacing string)
     // console.log(str.includes('html'));               (for searching string and returning value false if absent)
     // console.log(str.includes('javascript'));         (for searching string and returning value true if presents)
+
+    // ARRAY IN JAVASCRIPT 
+    // let books = ["physcis","chemistry","maths","bio"];
+    // let books = new Array("physcis","chemistry","maths","bio");
+    // let marks = [44, 21, 32, 40]
+    // let marks = [44, 21,"english", 32, 40.2]
+    // books[1]="hindi";
+    // console.log(books);
+    // console.log(books[3]);
+    // console.log(marks[2]);
+
+    // OPERATIOS ON ARRAY 
+    let books = ["physics","chemistry","maths","bio"]
+    let books1 =['hindi', 'english']
+    // let books ="math";
+    // console.log(books.length);           (length of array)
+    // books.push("hindi");                 (add at the end)
+    // books.unshift("hindi");              (add at start)
+    // books.pop();                         (removes the last element--> we can use pop again and again each will remove last element every time)
+    // books.shift();                       (removes first element--> we can use shift again and again each will remove first element every time)
+    // books.splice(1,2);                   (index,position -> removes element from the specific index to specific position)
+    // books=[];                            (empty array)
+    // books.length=0;                      (empty Array)
+    // console.log(books.indexOf("bio"));   (finding position of array)
+    // console.log(Array.isArray(books));   (to check is array or not)
+    // let text = "This is a random array";
+    // wordarry = text.split(' ');          (converting text/string into array)    
+    // console.log(books.join(' '));        (converting array to text)
+    // console.log(wordarry);      
+    // let NewBook = books.concat(books1);      (concating 2 arrays)
+    // console.log(NewBook);
+
+    
