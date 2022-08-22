@@ -462,22 +462,22 @@
     let str3=str.concat(" ",str1);
     console.log(str3);
 */
-    // let str = " I am learning javascript from scratch ";
-    // console.log(str.substr(14,10));              (index,length)
-    // console.log(str.substring(0,13));            (index,index)
-    // console.log(str.indexOf('javascript'));      (position of the input string)
-    // console.log(str.indexOf('h',15));            (find position after specific index)
-    // console.log(str.lastIndexOf('h'));           (search from last)
-    // console.log(str.indexOf('z'));               (for searching word is present or not)
+    // let str = " I am learning javascript from sc//ratch ";
+    // console.log(str.substr(14,10));             // (index,length)
+    // console.log(str.substring(0,13));           // (index,index)
+    // console.log(str.indexOf('javascript'));     // (position of the input string)
+    // console.log(str.indexOf('h',15));           // (find position after specific index)
+    // console.log(str.lastIndexOf('h'));          // (search from last)
+    // console.log(str.indexOf('z'));              // (for searching word is present or not)
     // console.log(str);
-    // console.log(str.trim());                     (for removing wide space from start and end)
-    // console.log(str.trimStart());                (removing wide space from start)
-    // console.log(str.trimEnd());                  (removing wide space from end)
-    // console.log(str.toUpperCase());              (transforming to upper case)
-    // console.log(str.toLocaleLowerCase());        (transforming to lower case)
-    // console.log(str.replace('javascript','bootstrap')); (replacing string)
-    // console.log(str.includes('html'));               (for searching string and returning value false if absent)
-    // console.log(str.includes('javascript'));         (for searching string and returning value true if presents)
+    // console.log(str.trim());                    // (for removing wide space from start and end)
+    // console.log(str.trimStart());               // (removing wide space from start)
+    // console.log(str.trimEnd());                 // (removing wide space from end)
+    // console.log(str.toUpperCase());             // (transforming to upper case)
+    // console.log(str.toLocaleLowerCase());       // (transforming to lower case)
+    // console.log(str.replace('javascript','bootstrap')); // (replacing string)
+    // console.log(str.includes('html'));           //   (for searching string and returning value false if absent)
+    // console.log(str.includes('javascript'));     //   (for searching string and returning value true if presents)
 
     // ARRAY IN JAVASCRIPT 
     // let books = ["physcis","chemistry","maths","bio"];
@@ -490,24 +490,253 @@
     // console.log(marks[2]);
 
     // OPERATIOS ON ARRAY 
-    let books = ["physics","chemistry","maths","bio"]
-    let books1 =['hindi', 'english']
+    // let books = ["physics","chemistry","maths","bio"]
+    // let books1 =['hindi', 'english']
     // let books ="math";
-    // console.log(books.length);           (length of array)
-    // books.push("hindi");                 (add at the end)
-    // books.unshift("hindi");              (add at start)
-    // books.pop();                         (removes the last element--> we can use pop again and again each will remove last element every time)
-    // books.shift();                       (removes first element--> we can use shift again and again each will remove first element every time)
-    // books.splice(1,2);                   (index,position -> removes element from the specific index to specific position)
-    // books=[];                            (empty array)
-    // books.length=0;                      (empty Array)
-    // console.log(books.indexOf("bio"));   (finding position of array)
-    // console.log(Array.isArray(books));   (to check is array or not)
+    // console.log(books.length);          // (length of array)
+    // books.push("hindi");                // (add at the end)
+    // books.unshift("hindi");             // (add at start)
+    // books.pop();                        // (removes the last element--> we can use pop again and again each will remove last element every time)
+    // books.shift();                      // (removes first element--> we can use shift again and again each will remove first element every time)
+    // books.splice(1,2);                  // (index,position -> removes element from the specific index to specific position)
+    // books=[];                           // (empty array)
+    // books.length=0;                     // (empty Array)
+    // console.log(books.indexOf("bio"));  // (finding position of array)
+    // console.log(Array.isArray(books));  // (to check is array or not)
     // let text = "This is a random array";
-    // wordarry = text.split(' ');          (converting text/string into array)    
-    // console.log(books.join(' '));        (converting array to text)
+    // wordarry = text.split(' ');         // (converting text/string into array)    
+    // console.log(books.join(' '));       // (converting array to text)
     // console.log(wordarry);      
-    // let NewBook = books.concat(books1);      (concating 2 arrays)
+    // let NewBook = books.concat(books1);      //(concating 2 arrays)
     // console.log(NewBook);
 
+    // TWO DIMENTIONAL ARRAY 
     
+    // let books=['physics', 'chemistry', 'maths', 'bio'];            //  (one dimentional array)
+    // let bookwithpages=[["physics","300"],                           // (two dimentional array)
+        //  ["chemistry", ["200", "300"], ["500", "jawad", "shaikh"]],
+        //  ["maths", "150"],
+        //  ["bio", "250"]
+    // ];
+
+    // let fetch =bookwithpages[3];
+    // let fetch = bookwithpages[3][1];
+    // let fetch = bookwithpages[1][1][0];
+    // let fetch = bookwithpages[1][2][1];
+    // console.log(fetch);
+
+    // let book=['physics', 'chemistry', 'maths', 'bio'];
+
+    // let booklength = book.length;
+    // for(i=0; i< booklength; i++){
+        // console.log(`element ${i} is ${book[i]}`);
+    // }
+    
+    // book.forEach(myfun);
+     
+    // function myfun(value){
+        // console.log(value);
+    // }
+    
+// FUNCTIONS IN JAVSCRIPT (functions are used for code reuseability) 
+    
+    // for(i=1; i<=10; i++){
+    //     document.write(`2 x ${i} = ${2*i} <br>`);
+    // }
+
+    // function table(){
+    //     for(i=1; i<=10; i++){
+    //         document.write(`2 x ${i} = ${2*i} <br>`);
+    //     }   
+    // }
+
+    // table();
+    // table();
+    // table();
+    // table();
+    // table();
+    // table();
+
+    // PARAMETERS AND ARGUMENTS
+
+    // function table(num){
+    //         for(i=1; i<=10; i++){
+    //             document.write(`${num} x ${i} = ${num*i} <br>`);
+    //         }   
+    //     }
+    
+    // table(1);
+    // document.write('<br>');
+    // table(3);
+    // document.write('<br>');
+    // table(5);
+    // document.write('<br>');
+    // table(7);
+    // document.write('<br>');
+    // table(9);
+    // document.write('<br>');
+    // table(11);
+    
+    // function add(num1,num2){
+    //     document.write(num1+num2);
+    // }
+    // add(1,1);
+
+    // ARGUMENTS OBJECT 
+
+    // function add(){
+        // console.log(arguments.length);
+        // console.log(arguments);
+        // console.log(arguments[3]);
+    //     if(arguments.length==0){
+    //         console.log("no arguments passed");
+    //     }
+    //     else{
+    //         let sum=0;
+    //         for(i=0;i<arguments.length; i++){
+    //             sum = sum + arguments[i];
+    //         }
+    //         console.log(sum);
+    //     }
+    // }
+
+    // add(1);
+    // add(1,2);
+    // add(1,2,5);
+    // let addition = add;
+    // addition(1,2,5);
+
+    // RETURNING A VALUE IN FUNCTION
+    // function add(a,b){
+        // console.log(`${a+b}`);
+        // document.write(a+b);
+        // let d = a + b;
+        // let d = [2,3,4];
+        // return d;
+    //     if(a>b){
+    //         return 1;
+    //     }       
+    //     else if(b>a){
+    //         return -1;
+    //     }
+    //     else{
+    //         return 0;
+    //     }
+    // }
+    // let c = add(5,5);
+    // console.log(c);
+
+    // GLOBAL VARIABLE VS LOCAL VARIABLE 
+
+    // let car = "Audi"; //global variable
+    // function add(){
+        // let result = 33; //local variable
+        // console.log(result);
+        // console.log(car);
+    // }
+
+    // add();
+    // console.log(result);
+    
+    //ANONYMOUS FUNCTION
+
+    // let text = function(){
+    //     console.log("Hello World!");
+    // }
+    // text();
+
+    // // setTimeout(text,3000);
+    // setTimeout(function(){
+    //     console.log("Hello World!");
+    // },3000);
+
+    //IMEDIATELY INVOKED FUNCTION  // use and free memory
+    // (function (){
+    //     console.log("hello world");
+    //     alert("hello world")
+    // })();
+
+    // let msg ="hello bootstrap";
+
+    // function show(){
+    //     console.log(msg);
+    // }
+
+    // show();
+
+    // OBJECTS IN JAVASCRIPT 
+
+    // let person = {
+    //     firstName: 'jawad',
+    //     lastName: 'shaikh'
+    // };
+    // person.height = 5.2;                            //adding new object
+    // delete person.lastName;                         //deleting property
+    // console.log(person.firstName);
+    // console.log(person.lastName);                   // dot notation
+    // console.log(person['firstName']);               // array notation
+    // console.log(person.age);                        // undefined
+    // console.log(person);                        
+    // firstName = 'faiz';
+    // console.log(firstName);                        // modification
+    // console.log('age' in person);                  // checking propery is there or not (tru/false)            
+
+    // for(let key in person){
+    //     console.log(key+": "+person[key]);         // accessing all the properties
+    // }
+
+    // METHODS IN JAVASCRIPT
+
+    // let person = {
+            // firstName: 'jawad',
+            // lastName: 'shaikh',
+            // sayHello:  function(){
+            //             console.log("Hello");
+            //     },
+    //         sayHello () {
+    //                         console.log("Hello i am "+this.firstName +" and i have a " + car.brand +" car");
+    //                 }            
+    // };
+    // person.height = 5.2;
+    // person.sayHello = function(){
+    //         console.log("Hello");
+    // }
+    // function greet(){
+    //     console.log("hello!");
+    // }
+    // person.sayHello =  greet;
+
+    // let car = {
+    //     brand:'tata',
+    //     model:'safari'
+    // };
+
+    // person.sayHello();
+
+    // console.log(Math.PI);
+    // console.log(Math.E);    
+    // console.log(Math.round(4.7));    
+    // console.log(Math.round(4.2));    
+    // console.log(Math.ceil(4.1));
+    // console.log(Math.floor(4.9));
+    // console.log(Math.trunc(4.8));
+    // console.log(Math.pow(2,3));
+    // console.log(Math.sqrt(100));
+    // console.log(Math.min(4, 100, 1, 0.9));
+    // console.log(Math.max(100, 200, 500, 50));
+
+    // RANDOM NUMBER 
+    // console.log(Math.floor(Math.random()*11));     //0 to 10
+    // console.log(Math.floor(Math.random()*11))+1;     //1 to 10
+    // console.log(Math.floor(Math.random()*101));     //0 to 100
+    // console.log(Math.floor(Math.random()*1001));     //0 to 1000
+    // console.log(Math.floor(Math.random()*10001));     //0 to 10000
+    // var randomNumber = Math.floor(Math.random()*(25 - 15)) + 15;
+    // console.log(Math.floor(Math.random()*(25 - 15)) + 15);
+
+    // function getRandom(max, min){
+    // let x =Math.floor(Math.random()*(max- min + 1)) + min;
+    // return x;
+    // }
+
+    // console.log(getRandom(10,25));
