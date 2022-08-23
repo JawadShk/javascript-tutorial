@@ -670,6 +670,12 @@
     //     firstName: 'jawad',
     //     lastName: 'shaikh'
     // };
+
+    //using new keyword
+    // let person = new Object;
+    // person.name = "jawad";
+    // console.log(person.name);
+
     // person.height = 5.2;                            //adding new object
     // delete person.lastName;                         //deleting property
     // console.log(person.firstName);
@@ -707,8 +713,8 @@
     // person.sayHello =  greet;
 
     // let car = {
-    //     brand:'tata',
-    //     model:'safari'
+        // brand:'tata',
+        // model:'safari'
     // };
 
     // person.sayHello();
@@ -740,3 +746,131 @@
     // }
 
     // console.log(getRandom(10,25));
+    // let x = new Date();
+    // let x = new Date("june 28, 2002 10:02:59");
+    // console.log(x);
+    // console.log(x.getDate());
+    // console.log(x.getDay());
+    // console.log(x.getMonth());
+    // console.log(x.getTime());
+    // console.log(x.getHours());
+    // console.log(x.getMinutes());
+    // console.log(x.getSeconds());
+    // console.log(x.setDate("12 october, 2003 10:20:30"));
+    // x.setDate(13);
+    // x.setFullYear(2005);
+    // x.setMonth(0);
+    // x.setMinutes(1);
+    // let y = new Date("june 28, 2002 10:02:59");
+    // y.setDate(x.getDate()+50);
+    // console.log(x);    
+    // console.log(y);
+
+    // let x = new Date("june 28, 2023 10:02:59");
+    // let y = new Date();
+
+    // if(x<y){
+    //     console.log("x is past date");
+    // }else if(x > y){
+    //     console.log("y is future date");
+    // }
+    // else{
+    //     console.log("dates are same");
+    // }
+
+    // GETTER AND SETTER FUNCTION 
+    // var person = {
+        // name : "jawad",
+        // age : "19",
+
+        // getname: function(){
+        //     return this.name.toUpperCase();
+        // },
+        
+        // get getname(){
+        //     return this.name.toUpperCase();
+        // },
+
+        // set setname(n){
+            // this.name = n.toUpperCase();
+        // }
+    // }
+    // person.setname = "jawad";
+    // console.log(person.name);
+    // console.log(person.getname());
+    // console.log(person.getname);
+    // console.log(person);
+
+    // object constructor 
+    // var student1 = {
+    //     firstName : "jawad",
+    //     lastName : "shaikh",
+    //     age : 25,
+    //     class:5
+    // }    
+
+    // var student2 = {
+    //     firstName : "shaikh",
+    //     lastName : "kumar",
+    //     age : 25,
+    //     class:5
+    // }    
+
+    // function Student(first, last, age, cls){
+    //     this.firstName = first;
+    //     this.LasttName = last;
+    //     this.age = age;
+    //     this.class = cls;
+    // }
+
+    // var student1 = new Student("JAWAD", "SHAIKH", "19", "5");
+    // student1.nationality = "Indian";
+    // student1.name = function(){
+    //     return this.firstName + " " + this.LasttName;
+    // }
+    // Student.prototype.nationality = "Indian";
+    // var Student2 = new Student("FAIZ", "SHAIKH", "28", "5");
+    // var Student3 = new Student("HAMZA", "SHAIKH", "25", "5");
+    // console.log(student1.name());
+    // console.log(student1.nationality);
+    
+    //NESTED OBJECT
+    // var user = {
+    //     id:101,
+    //     email: "shaikhjawad020@gmail.com",
+    //     personalInfo: {
+    //         name: "jawad",
+    //         address: {
+    //             street:"homi street",
+    //             city:"mumbai",
+    //             country:"india",
+    //         }
+    //     }
+    // };
+    // console.log(user.personalInfo.address.country);
+
+
+    //Hoisting (to left to pull)-->declaration up
+    // hello();
+    // function hello(){
+    //     console.log("Hello World");
+    // }
+    
+    // var x;
+    // console.log(x); //undefined
+    // x=7;
+
+    // x = 7;
+    // console.log(x);
+    // var x;
+
+    // console.log(x);
+    // x=7;
+    // var x;  
+
+    // console.log(x); //error let const does not work same 
+    // let x;
+    // x = 7;
+    // "use strict" // without declartion we cannot use variable
+    // x = 4;
+    // console.log(x);
