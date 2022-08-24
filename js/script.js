@@ -853,24 +853,69 @@
     //Hoisting (to left to pull)-->declaration up
     // hello();
     // function hello(){
-    //     console.log("Hello World");
+        //     console.log("Hello World");
+        // }
+        
+        // var x;
+        // console.log(x); //undefined
+        // x=7;
+        
+        // x = 7;
+        // console.log(x);
+        // var x;
+        // console.log(x);
+        // x=7;
+        // var x;  
+    
+        // console.log(x); //error let const does not work same 
+        // let x;
+        // x = 7;
+        // "use strict" // without declartion we cannot use variable
+        // x = 4;
+        // console.log(x);
+        
+    //Select element by ID
+        //  object.method();  
+    // let x = document.getElementById("head");
+    // x.innerHTML = "<h1>JAVASCRIIPT TUTORIAL</h1>" //SET
+    // console.log(x.innerHTML);                    //GET
+    // console.log(x);
+
+
+    //select element by class name 
+    // let elm = documnet.getElementsByClassName("list-1");
+    // for(let i=0; i<elm.length;i++){
+    //     elm[i].innerHTML = "hello";
     // }
     
-    // var x;
-    // console.log(x); //undefined
-    // x=7;
+    //get element by tag name
 
-    // x = 7;
-    // console.log(x);
-    // var x;
+    // let div1 = document.getElementById("div1");
+    // let elm = document.getElementsByTagName("h2");
+    // for(let i=0; i<elm.length;i++){
+    //     elm[i].innerHTML = "hello";
+    // }
 
-    // console.log(x);
-    // x=7;
-    // var x;  
+    // QUERRY SELECTOR IN JAVASCRIPT
+    // let elm = document.querySelector("p.intro");
+    // elm.innerHtml = "hello";
+    // console.log(elm);
 
-    // console.log(x); //error let const does not work same 
-    // let x;
-    // x = 7;
-    // "use strict" // without declartion we cannot use variable
-    // x = 4;
-    // console.log(x);
+    // let elm = document.querySelectorAll("p.intro");
+    // for(let i = 0; i<elm.length; i++){
+    //     elm[i].innerHtml = "hello";
+    //     console.log(elm);
+    // }
+
+    // let elm = document.getElementById("intro");
+    // elm.innerHTML = "<h1> this is heading tag </h1>";
+
+    // let elm = document.getElementById("intro");
+    // let h1 = document.createElement('h1');
+    // h1.className = "try";
+    // h1.id = "intro";
+    // let text = document.createTextNode("This is h1 tag");
+    // elm.appendChild(text);
+    // elm.appendChild(h1);
+    // let pos =firstElementChild;
+    // lisr1.insertBefore(item, pos)
