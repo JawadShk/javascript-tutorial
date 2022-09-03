@@ -919,3 +919,68 @@
     // elm.appendChild(h1);
     // let pos =firstElementChild;
     // lisr1.insertBefore(item, pos)
+
+    // let btn = document.getElementById("btn");
+    // btn.setAttribute("name", "form1");
+    // btn.setAttribute("class", "form2")
+    // let val = btn.getAttribute("id");
+    // console.log(val);
+    // let val2 = btn.removeAttribute("name");
+    // let val3 = btn.hasAttribute("id");
+    // console.log(val3);
+    // btn.style.cssText += "background-color: black"
+    // // btn.setAttribute("style", "color: white; background-color:red;");
+    // btn.style.background = "red";
+
+    // let css = getComputedStyle(btn);
+    // console.log(css);
+
+    // let box = document.getElementById("box");
+    // console.log(box.className);
+    // box.className += " dim";
+    // console.log(box.classList);
+    // let width = box.offsetWidth;
+    // let width = box.clientWidth;
+    // let height = box.Height;
+    // let height = box.clientHeight;
+    // console.log(width);
+    // console.log(height);
+
+    // events 
+
+    // function btnclick(){
+    //     alert("button was clicked");
+    // }
+
+    // let btn = document.getElementById("btn");
+    // btn.addEventListener("click", btnclick)
+    // btn.addEventListener("click", function(){
+    //     console.log("button wad clicked");
+    // })
+    // btn.addEventListener("mouseover", function(){
+    //     console.log("mouse over activated");
+    // })
+    // btn.addEventListener("mouseout", function(){
+    //     console.log("mouse out activated");
+    // })
+    // function click1(){
+    //     console.log("click1 activated");
+    // }
+    // function click2(){
+    //     console.log("click2 activated");
+    // }
+    // btn.addEventListener("click", click1);
+    // btn.addEventListener("click", click2);
+
+    // btn.removeEventListener("click", click2);
+    // let image = document.getElementById("img");
+    // image.addEventListener("DOMContentLoaded", function(){
+    //     console.log("domtreecreated");
+    // });
+    // image.addEventListener("load", function(){
+    //     console.log("Fully Loaded");
+    // });
+
+    function fun(){
+        alert("doubClicked");
+    }
