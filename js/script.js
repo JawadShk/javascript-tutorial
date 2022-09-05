@@ -981,6 +981,179 @@
     //     console.log("Fully Loaded");
     // });
 
-    function fun(){
-        alert("doubClicked");
-    }
+    // function fun(){
+    //     alert("event occured");
+    // }
+
+    // let elm = document.getElementById("para");
+
+    // window.addEventListener("scroll", function(){
+    //     console.log("scrolling");
+    // })
+
+    //     function mouseDown() {
+    //     document.getElementById("myP").style.color = "red";
+    //   }
+      
+    //   function mouseUp() {
+    //     document.getElementById("myP").style.color = "green";
+    //   }
+
+    // window.addEventListener("keydown", checkkey);
+    // function checkkey(event){
+    //     console.log(event.key);
+    // }
+
+    // window.addEventListener("scroll", function(){
+    //     console.log("scrolling");
+    // })                      
+
+    
+        // window.addEventListener("wheel", function(event){
+        //     if(event.deltaY < 0){
+        //         console.log("scrolling up");
+        //     }else if(event.deltaY > 0){
+        //         console.log("scrolling down");
+        //     }
+        // });                      
+
+        // window.addEventListener("scroll", function(){
+        //     if(window.pageYOffset > 150){
+        //         document.body.style.background = "red";
+        //         document.body.style.color = "white";
+        //     }else{
+        //         document.body.style.background = "white";
+        //         document.body.style.color = "black";
+        //     }
+        // })
+
+        // let x = document.getElementById("myinput");
+        // x.addEventListener("focus", myfocusfunction);
+        // x.addEventListener("blur", myblurfunction);
+
+        // // x.addEventListener("change", function(){
+        // //     console.log(this.value);
+        // // });
+        // x.addEventListener("input", function(){
+        //     console.log(this.value);
+        // });
+
+        // function myfocusfunction(){
+        //     x.style.background = "yellow";
+        //     x.style.color = "purple";
+        // }
+
+        // function myblurfunction(){
+        //     x.style.background = "white";
+        // }
+
+        // let d = document.getElementById("myDiv");
+        // let b = document.getElementById("btn");
+
+        // b.addEventListener("click", btnClicked, true);
+        // d.addEventListener("click", divClicked, true);
+        // document.body.addEventListener("click", bodyClicked, true);
+
+        // function btnClicked(event){
+        //     console.log("button clicked");
+        //     event.stopPropagation();
+        // }
+        // function divClicked(){
+        //     console.log("div clicked");
+        // }
+        // function bodyClicked(){
+        //     console.log("body clicked");
+        // }
+
+        //    let link = document.getElementById("anchor");
+    //     link.addEventListener("click", function(e){
+    //         console.log("link clicked... ");
+    //         e.preventDefault();
+    //    });
+
+    // let form = document.getElementById("myForm");
+
+    // form.addEventListener("submit", function(e){
+    //     e.preventDefault();
+    // });
+
+    // var x = "hello....";
+    // let x = "hello....";
+    // const x = "hello....";
+    // console.log(window.x);
+
+    // function xyz(){
+    //     console.log("hii");
+    // }
+    // window.xyz();
+
+    // window.alert("hi");
+
+    // console.log(window.innerHeight); 
+    // console.log(window.outerHeight); 
+    // console.log(window.innerWidth); 
+    // console.log(window.outerWidth); 
+
+    // let btn1 = document.getElementById("btn1"); 
+    // let btn2 = document.getElementById("btn2"); 
+    // let btn3 = document.getElementById("btn3"); 
+
+    // let url = "https://www.google.com";
+    // let features = "height=500,width=500,_self";
+    // let win;
+
+    // btn1.addEventListener("click", function(){
+    //     win = window.open(url, "google", features);
+    // });
+
+    // btn2.addEventListener("click", function(){
+    //     window.open("https://www.yahoo.com", "google")
+    // });
+
+    // btn3.addEventListener("click", function(){
+    //     win.close();
+    // });
+
+    // let timeoutId = setTimeout(myFunction, 5000);
+
+    // function myFunction(){
+    //     alert("enjoying javascript");
+    // }
+    // clearTimeout(timeoutId);
+    
+    // var t1 = setInterval(fun, 2000);
+
+    // function fun(){
+    //     console.log("plase subscribe...");
+    // }
+
+    // let btn1 = document.getElementById("btn");
+
+    // btn1.addEventListener("click", function(){
+    //     clearInterval(t1);
+    // });
+
+    // console.log(location.href);
+    // console.log(location.pathname);
+    // console.log(location.protocol);
+
+    // function fun(){
+    //     window.location = "https://www.google.com";
+    //     location.href = "https://www.google.com";
+    //     location.assign("https://www.google.com");
+    //     location.replace("https://www.google.com");
+    //     location.reload("https://www.google.com");
+    // }
+
+    //    console.log(navigator.appName); 
+    //    console.log(navigator.appVersion); 
+    //    console.log(navigator.appCodeName); 
+    //    console.log(navigator.cookieEnabled); 
+    //    console.log(navigator.userAgent); 
+    //    console.log(navigator.platform); 
+    //    console.log(navigator.javaEnabled());
+
+    // console.log(screen.width);
+    // console.log(screen.height);
+    // console.log(screen.colorDepth);
+    // console.log(screen.orientation);
